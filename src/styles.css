@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'Raleway', sans-serif;
+  width: calc();
+}
+@layer base{
+  .input{
+    @apply w-full border border-black-light-3 rounded focus:outline-none focus:border-navy-regular focus:ring-1 focus:ring-navy-regular placeholder-black-light-2 disabled:placeholder-black-light-3 mb-2 py-3 px-4;
+  }
+}

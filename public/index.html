@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <div class="bg-[#FFC017] relative">
+    <div class="absolute left-[calc(50%-240px)]  top-0 h-full hidden md:flex">
+      <img class="h-full object-cover" src="./img/hero-img.jpg" alt="hero img ">
+    </div>
+    <div class="absolute right-0  top-0 h-full hidden sm:flex md:hidden">
+      <img class="h-full object-cover " src="./img/mobile-bg-hero.png" alt="hero img ">
+    </div>
+    <div class="absolute right-0  top-0 h-full sm:hidden flex">
+      <img class="h-full object-cover " src="./img/hero-bg-sm.png" alt="hero img ">
+    </div>
+    <header class="pt-18 pb-18 border-4 relative z-10">
+      <div class="max-w-[1432px] flex items-center px-4 mx-auto">
+        <a href="#" class="flex w-34 mr-8 md:mr-14">
+          <img class="w-full" src="./img/header-logo.svg" alt="header logo">
+        </a>
+        <nav class="mr-auto hidden sm:block">
+          <ul class="flex gap-5">
+            <li>
+              <a class="text-17" href="#">Maqolalar</a>
+            </li>
+            <li>
+              <a class="text-17" href="#">Ijtimoiy tarmoqlar</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="border px-4 hidden sm:block">til</button>
+        <a class="hidden md:inline-block font-bold text-sm leading-5 bg-black text-white rounded-10 px-5 py-3 ml-8" href="#" class="">
+          Xabar qoldirish
+        </a>
+        <button class="block sm:hidden ml-auto cursor-pointer p-3 rounded-10 bg-white">
+          <img src="./img/humburger.svg" alt="humburger menu">
+        </button>
+      </div>
+    </header>
+    <section class="pt-28 pb-48">
+      <div class="max-w-[1432px] px-4 mx-auto relative z-10">
+        <h1 class="font-bold text-40 md:text-77 sm:text-50 uppercase max-w-md mb-5">Alisher Rustamov</h1>
+        <p class="text-15 sm:text-17 max-w-55 max-w-42 mb-30">Malevich Consulting asoschilardan biri va 16 yillik SERVIS bo‘yicha mutaxassis</p>
+        <a href="#" class="font-extrabold text-lg leading-6 text-white p-5 bg-black rounded-10 inline-block">Men haqimda</a>
+      </div>
+    </section>
+  </div>
+
+
+  <script src="./js/app.js"></script>
+</body>
+</html>
